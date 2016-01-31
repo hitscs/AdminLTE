@@ -13,7 +13,8 @@
 .skin-red .main-header .navbar .nav > li > a:focus,
 .skin-red .main-header .navbar .nav .open > a,
 .skin-red .main-header .navbar .nav .open > a:hover,
-.skin-red .main-header .navbar .nav .open > a:focus {
+.skin-red .main-header .navbar .nav .open > a:focus,
+.skin-red .main-header .navbar .nav > .active > a {
   background: rgba(0, 0, 0, 0.1);
   color: #f6f6f6;
 }
@@ -44,7 +45,7 @@
 .skin-red .main-header .logo {
   background-color: #d73925;
   color: #ffffff;
-  border-bottom: 0px solid transparent;
+  border-bottom: 0 solid transparent;
 }
 .skin-red .main-header .logo:hover {
   background-color: #d33724;

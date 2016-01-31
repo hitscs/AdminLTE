@@ -1,5 +1,6 @@
-'use strict';
 $(function () {
+
+  'use strict';
 
   /* ChartJS
    * -------
@@ -189,8 +190,7 @@ $(function () {
       selected: {
         fill: 'yellow'
       },
-      selectedHover: {
-      }
+      selectedHover: {}
     },
     markerStyle: {
       initial: {

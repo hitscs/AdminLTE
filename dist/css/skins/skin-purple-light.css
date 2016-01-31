@@ -13,7 +13,8 @@
 .skin-purple-light .main-header .navbar .nav > li > a:focus,
 .skin-purple-light .main-header .navbar .nav .open > a,
 .skin-purple-light .main-header .navbar .nav .open > a:hover,
-.skin-purple-light .main-header .navbar .nav .open > a:focus {
+.skin-purple-light .main-header .navbar .nav .open > a:focus,
+.skin-purple-light .main-header .navbar .nav > .active > a {
   background: rgba(0, 0, 0, 0.1);
   color: #f6f6f6;
 }
@@ -44,7 +45,7 @@
 .skin-purple-light .main-header .logo {
   background-color: #605ca8;
   color: #ffffff;
-  border-bottom: 0px solid transparent;
+  border-bottom: 0 solid transparent;
 }
 .skin-purple-light .main-header .logo:hover {
   background-color: #5d59a6;
